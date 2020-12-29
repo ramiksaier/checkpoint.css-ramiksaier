@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./ff.jpeg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+/* #sec {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+input {
+  border-radius: 50px;
+  height: 40px;
+  width: 200px;
+  position: relative;
+  box-sizing: border-box;
+  transition: 5s;
+}
+#aa {
+  padding: 0 30px;
+  text-decoration-color: darkorange;
+}
+button {
+  position: relative;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: #ffc107;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 38px;
+  color: #fff;
+}
+button:hover {
+  background: #ff5722;
+}
+
+.dogs-section {
+  display: flex;
+  justify-content: space-around;
+}
+#main ul {
+  color: rgb(17, 17, 16);
+  margin-top: 25px;
+  float: right;
+}
+#main li a {
+  text-decoration: none;
+  color: #ffc107;
+  padding: 5px 20px;
+  border: 1px solid #ffc107;
+}
+#main ul li {
+  display: inline-block;
+}
+#typechien ul {
+  color: rgb(39, 37, 35);
+  margin-top: 25px;
+  float: left;
+}
+#typechien ul li {
+  display: inline-block;
+}
+#typechien li a {
+  text-decoration: none;
+  color: #ffc107;
+  padding: 5px 20px;
+  border: 1px solid #ffc107;
+}
+#titre {
+  color: #ffc107;
+  font-size: 50px;
+  margin: 170px;
+}
+.search-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#berger {
+  /* top: 50%;
+  left: 10%;
+  position: absolute;
+  transform: translate(-50%, -50%); */
+  width: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+}
+#div12 {
+  width: 200px;
+  height: 200px;
+  background: url(./download.jfif);
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+p {
+  margin: 0;
+  padding: 0;
+  line-height: 22px;
+  font-size: 23px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: justify;
+  color: rgb(245, 231, 231);
+}
+#chien-loup {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+}
+#div13 {
+  width: 200px;
+  height: 200px;
+  background: url(./chienloup.jpg);
+  background-position: center;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+#rottweiler {
+  /* position: absolute;
+  top: 50%;
+  left: 90%;
+  transform: translate(-50%, -50%); */
+  width: 600px;
+  padding: 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 0px 20px 20px 20px;
+}
+#div14 {
+  width: 200px;
+  height: 200px;
+  background: url(./rotwiler.jpg);
+  background-position: center;
+  border-radius: 50%;
+  float: left;
+  shape-outside: circle();
+  margin: 30px;
+}
+h1 {
+  margin: 0.2px;
+  padding: 0;
+  font-size: 30px;
+  color: #ffc107;
+}
+.dogs-section {
+  position: relative;
+  height: auto;
+  width: 100%;
+  margin: 390px;
+  margin-left: 20px;
+}
+#berger #chien-loup #rottweiler {
+  /* display: inline; */
+  margin: 20px;
+}
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.footer .col {
+  width: 190px;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 0px 20px 20px 20px;
+}
+.footer .col h1 {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: 12px;
+  line-height: 17px;
+  padding: 20px 0px 5px 0px;
+  color: #ffc107;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+}
+.footer .col ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .col ul li {
+  color: #ffc107;
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: bold;
+  padding: 5px 0px 5px 0px;
+  cursor: pointer;
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+}
+
+.footer .col ul li:hover {
+  color: #ffffff;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+}
+.clearfix {
+  clear: both;
+}
+.social h1 {
+  margin: 10px;
+}
+.footer .col h1 {
+  font-size: 14px;
+}
+.footer .col ul li {
+  font-size: 13px;
+}
+.footer .col h1 {
+  font-size: 14px;
+}
+.footer .col ul li {
+  font-size: 13px;
+}
